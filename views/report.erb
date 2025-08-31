@@ -1,0 +1,15 @@
+<h2>Reports</h2>
+
+<h3>By Category</h3>
+<ul>
+  <% @by_category.each do |cat, amt| %>
+    <li><%= cat %>: $<%= amt %></li>
+  <% end %>
+</ul>
+
+<h3>By Month</h3>
+<ul>
+  <% @by_month.each do |month, amt| %>
+    <li><%= month %>: $<%= amt %></li>
+  <% end %>
+</ul>

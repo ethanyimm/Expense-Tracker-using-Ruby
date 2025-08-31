@@ -1,0 +1,15 @@
+# Database
+db/development.sqlite3
+db/test.sqlite3
+db/production.sqlite3
+
+# Bundler
+.bundle/
+vendor/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
